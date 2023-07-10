@@ -37,7 +37,7 @@ root.minsize(400, 75)
 root.maxsize(400, 75)
 root.title("og xbox version calculator")
 
-ver_label = ttk.Label(root, text="Xbox Version:")
+ver_label = ttk.Label(root, text="Xbox Version:   (Input the xbox's Kernel)")
 calculate_button = ttk.Button(root, text="Calculate Version", command=calculate_ver)
 ver_label.pack()
 
